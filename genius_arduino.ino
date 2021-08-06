@@ -47,7 +47,7 @@ void loop() {
 
 void proximaRodada() {
   randomSeed(analogRead(A0));
-  int sorteio = random(4);
+  int sorteio = random(3);
   sequencia[rodada] = sorteio;
   rodada = rodada + 1;
   //Serial.print(sorteio);
